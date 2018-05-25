@@ -1,10 +1,6 @@
 Project 2: Secure File Store
 ===============================================
 
-
-If you have questions about or find errors in this documentation, please post on
-Piazza.
-
 For this project, you can work in teams of up to 2 people.
 
 All of your code must go in `client.py`.
