@@ -15,4 +15,6 @@ already provided for you on Hive and most other instructional machines. Double
 check that you are using Python3---on many machines (including Hive), the
 `python` command defaults to Python 2. Use the `python3` command. For more
 details see the `Getting Started` section in the online documentation.
-Uploading and downloading using pycrypto, share and revoke part on school class account which has expired :(
+
+
+Note: Uploading and downloading using pycrypto, share and revoke part on school class account which has expired :(
