@@ -112,41 +112,4 @@ class Client(BaseClient):
 ###on my local laptop.
 #######################################################
 
-    def share(self, user, name):
-        # Replace with your implementation (not needed for Part 1)
-        #m = a.share("b", n1), b.receive_share("a", n2, m), download must return the last updated value
-        #
-        
-        # if not self.storage_server.get(name):
-        #     return None
-        # else:
-            
-        #     if tree[self.username] == 0:
-
-        #         tree[self.username] = {}
-        #     else:
-                
-        #         if tree[self.username][user] == 0:
-
-        #             tree[self.username][user] = 1
-        #         else:
-        #             print('user has already got access from self.user')
-        # json_tree = json.dumps(tree)
-        
-
-
-
-
-
-
-    def receive_share(self, from_username, newname, message):
-        # Replace with your implementation (not needed for Part 1)
-        raise NotImplementedError
-
-    def revoke(self, user, name):
-        # Replace with your implementation (not needed for Part 1)
-        #only the user who initially created the file may call this function
-        #anyone with whom otheruser shared this file MUST also be revoked
-        #1. Bob should not be able to update file 2. BOb not able to read any updates to the file 
-        #3. Carol should not be able to read or update 4.Bob should not be able to regain access by calling recieve_share() with alice previous msg
-        raise NotImplementedError
+    
